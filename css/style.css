@@ -1,0 +1,1598 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.clr{
+    clear: both;
+}
+.header{
+    max-width: 100%;
+    background:#fff;
+    border-bottom:1px solid whitesmoke ;
+    height: 62px;
+    position: fixed;
+    top: 0;
+
+}
+.logo{
+    float: left;
+    max-width: 100%;
+}
+.logo img{
+   width: 6%;
+   margin-top: 5px;
+   margin-left: 15px;
+   
+    
+    
+}
+.nav{
+    float: right;
+    padding-left: 209px;
+
+}
+.nav ul{
+    list-style: none;
+    width: 100%;
+    
+
+}
+.nav ul li{
+    float:left;
+    padding: 22px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
+}
+.nav ul li ul{
+    display: none;
+}
+.nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 470px;
+    background: #fff;
+}
+.nav ul li ul li{
+    float: left;
+    width: 50%;
+    padding: 7px 8px;
+    
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+.nav ul li:hover>a{
+    color:blue;
+}
+.container{
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+.mission{
+    max-width: 570px;
+    margin: auto;
+    text-align: center;
+    margin-top:40px;
+    height: 50%;
+}
+.mission h1{
+    font-size: 34px;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+
+
+.mission p{
+    font-size: 18px;
+    margin-bottom: 55px;
+    font-weight: 400;
+}
+.mission p strong{
+    font-weight: bold;
+    font-size: 18px;
+}
+.service{
+    background-color:#f4f5fd;
+    width: 100%;
+
+}
+.service h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 44px;
+    
+}
+.service p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 28px;
+
+    
+    
+}
+.strategy_icn{
+    max-width: 24%;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 18px;
+    padding: 16px;
+    
+}
+.strategy_icn img{
+    max-width: 100%;
+    
+    
+    
+}
+.service-box{
+    width: 31%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 10px;
+    min-height: 325px;
+    
+    
+
+}
+.service-row{
+    width: 86%;
+    padding-left: 213px;
+    padding-top: 50px;
+}
+.service-box h1{
+    font-size: 20px;
+    margin-top: 35px;
+}
+.service-box p{
+    font-size: 15px;
+    margin-top: 18px;
+    color: #536479;
+}
+.strategy_icn1{
+    max-width: 100%;
+    margin-left: 88px;
+    float: right;
+    
+    
+}
+.strategy_icn1 img{
+    width: 38%
+
+    
+    
+    
+}
+.expart{
+    width: 100%;
+}
+.expart-row{
+    width: 100%;
+
+}
+.expart-box{
+    width: 20%;
+    float: left;
+    margin: 22px;
+}
+.expart-box h1{
+    font-size: 20px;
+    margin-top: 100px;
+    font-weight: 500;
+    
+}
+.expart-box p{
+    font-size: 16px;
+    color: #536479;
+    margin-top: 20px;
+}
+.strategy_icn2{
+    max-width: 100%;
+}
+.strategy_icn2 img{
+    width: 7%;
+    margin-left: 260px;
+    margin-top: 30px;
+}
+.modal-row{
+    width: 100%;
+}
+.modal-box{
+    width: 45%;
+    float: left;
+    border: 1px solid wheat;
+    margin: 10px;
+    min-height: 175px;
+}
+.modal-box h1{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.strategy_icn3{
+    max-width: 100%;
+}
+.strategy_icn3 img{
+    width: 100%;
+}
+.follow-row{
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.follow{
+    background-color: #f4f5fd;
+}
+.mission h1{
+    padding-top: 55px;
+}
+.bharat-row{
+    width: 100%;
+}
+.bharat-box{
+    width: 42%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.bharat-box p{
+    margin-top: 20px;
+    color: #94a3bb;
+    font-size: 15px;
+}
+.bharat-box h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.strategy_icn4{
+    max-width: 100%;
+}
+.strategy_icn4 img{
+    width: 100%;
+}
+.partner-box{
+    width: 11%;
+    float: left;
+    margin-left: 18px;
+}
+.ganesh{
+    width: 100%;
+    background-color: black;
+}
+.ganesh-box{
+    width: 20%;
+    color: #fff;
+    float: left;
+    margin: 22px;
+}
+.strategy_icn5{
+    max-width: 100%;
+}
+.strategy_icn5 img{
+    width: 40%;
+}
+.ganesh-box h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.ganesh-box p{
+    font-size: 15px;
+    margin-top: 7px;
+}
+.ganesh-row{
+    color: #fff;
+    float: left;
+    width: 100%;
+}
+.ganesh-row h2{
+    font-size: 13px;
+    margin-bottom: 22px;
+    margin-top: 45px;
+    font-weight: 300;
+}
+.ganesh-box button{
+    font-size: 21px;
+    margin-top: 20px;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+.ganesh-box h2{
+    font-size: 25px;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    max-width: 100%;
+    min-width: 100%;
+
+}
+.servicemain{
+    background-color: rgb(244,245,253);
+}
+.servicemain h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    font-weight: 700;
+}
+.servicemain p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.servicemain-row{
+    width: 84%;
+    padding-left: 243px;
+    padding-top: 35px;
+    
+}
+.servicemain-box{
+    width: 29%;
+    float: left;
+    background-color: #fff;
+    margin: 16px;
+    height: 143px;
+    border-radius: 5px;
+    box-shadow:  0 7px 9px#ccc;
+    
+}
+.servicemain-box h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-top: 23px;
+    
+}
+.servicemain-box p{
+    color: rgb(35, 5, 169);
+}
+.staff-box{
+    width: 40%;
+    float: left;
+    margin-left: 60px;
+}
+.staff-box img {
+    max-width: 100%;
+}
+.staff{
+    width: 100%;
+}
+.staff h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: 700;
+}
+.staff p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 18px;
+}
+.staff-row{
+    width: 86%;
+    margin-left: 203px;
+    margin-top: 50px;
+}
+.staff-box p{
+ font-weight:100;  
+font-weight: normal;
+color: #222;
+}
+.staff ul{
+    list-style: none;
+    margin-top: 19px;
+    width: 90%;
+}
+.staff ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    float: left;
+    margin-left: 15px;
+    padding-top: 8px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px  #ccc;
+    padding: 4px 6px;
+    
+}
+.technology{
+    width: 100%;
+    background-color: #f4f5fd;
+    margin-top: 50px;
+}
+.technology h5{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 40px;
+    font-weight: 700;
+
+}
+.technology-box{
+    width: 15%;
+    float: left;
+    margin-left: 90px;
+}
+.technology-box h1{
+    
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.technology-box p{
+    
+    font-size: 14px;
+    padding-top: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.technology-row {
+    width: 88%;
+    margin-left: 181px;
+    margin-top: 25px;
+}
+.ganesh_kr{
+    width: 100%;
+    
+}
+.icon{
+    width: 6%;
+    float: left;
+    margin-top: 17px;
+}
+.icon img{
+    width: 100%;
+}
+.contentv1{
+    width: 94%;
+    float: right;
+}
+.process{
+    width: 100%;
+}
+.process h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 86px;
+}
+.process-box{
+    width: 20%;
+    float: left;
+    margin-top: 67px;
+    margin-left: 5px;
+    height: 75px;
+}
+.process-row{
+    width: 80%;
+    margin-left: 240px;
+}
+.process-box p{
+   font-size: 15px;
+   text-align: center;
+   color: #fff;
+   padding-top: 22px;
+
+}
+.contact{
+    width: 48%;
+    margin-top: 155px;
+    margin-left: 250px;
+}
+.contact-row{
+    width: 97%;
+    border: 1px solid black;
+    margin-top: 22px;
+    height: 52px;
+    border-radius: 5px;
+}
+.contact-row input{
+    width: 100%;
+    padding: 17px;
+}
+.contact h5{
+    font-size: 30px;
+}
+.contact p{
+    font-size: 17px;
+    margin-top: 27px;
+    font-weight: 400;
+}
+.contact-row h1 {
+    margin-top: 18px;
+    font-size: 15px;
+    padding-left: 14px;
+    color: #536479;
+}
+.contact-row1 button{
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 12px 19px;
+    box-shadow: 0px 5px 7px #ccc;
+    color: #000;
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+}
+.work{
+    width: 100%;
+    background-color: #120d5b;
+    color: #fff;
+    height: 230px;
+}
+.work h1{
+    font-size: 27px;
+    padding-left: 200px;
+    padding-top: 120px;
+    font-weight: bold;
+}
+.club{
+    width: 100%;
+}
+.club-row{
+    width: 100%;
+    margin-top: 50px;
+}
+.club-box{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+    margin-top: 55px;
+}
+.strategy_icn7{
+    width: 100%;
+
+}
+.strategy_icn7 img{
+    max-width: 100%;
+}
+.club1 h1{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 38px;
+    color:#120d5b ;
+}
+.about{
+    width: 100%;
+    background-color: #120d5b;
+    color: #fff;
+    height: 230px;
+}
+.about h1{
+    font-size: 27px;
+    padding-left: 200px;
+    padding-top: 120px;
+    font-weight: bold;
+}
+.are-row{
+    width: 89%;
+    margin-left: 167px;
+}
+.are-box{
+    width: 40%;
+    float: left;
+    margin-left: 15px;
+}
+.ganesh_ya{
+    width: 100%;
+}
+.ganesh_ya img{
+    max-width: 100%;
+}
+.are{
+    
+    margin-top: 76px;
+}
+.are h1{
+    font-size: 25px;
+    
+
+}
+.are-box p{
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.strong-box{
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+}
+.strong-row{
+    width: 89%;
+    margin-top: 53px;
+    margin-left: -67px;
+}
+.strong-box p{
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.main-row{
+    width: 79%;
+    margin-left: 178px;
+    margin-top: 90px;
+}
+.main-box{
+    width: 30%;
+    float: left;
+    border: 1px solid;
+    margin: 10px;
+    height: 276px;
+    border-radius: 4px;
+    border-bottom: 5px solid;
+    
+}
+.msin_icon{
+    width: 100%;
+    
+    padding: 6px;
+    
+}
+.msin_icon img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid rgb(128,53,152);
+    
+}
+.msin_icon2 img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid rgb(248,172,25);
+}
+.msin_icon3 img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid rgb(22,167,224);
+}
+.msin_icon4 img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid rgb(124,198,28);
+}
+.msin_icon5 img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid rgb(160,93,223);
+}
+.msin_icon6 img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid rgb(236,141,29);
+}
+.msin_icon7 img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid red;
+}
+.msin_icon8 img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid rgb(219,70,154);
+}
+.msin_icon9 img{
+    max-width: 21%;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 31px;
+    padding: 12px 12px;
+    border: 1px  solid rgb(67,171,82);
+}
+.main h2{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.main p{
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-top: 13px;
+}
+.offic-row{
+    width: 83%;
+    margin-left: 227px;
+}
+.offic-box{
+    width: 40%;
+    float: left;
+    margin-top: 55px;
+}
+.offic h1{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 91px;
+}
+.offic-box h2{
+    font-size: 32px;
+}
+.offic-box p{
+    font-size: 14px;
+    margin-top: 19px;
+}
+.us{
+    width: 100%;
+
+}
+.us h1{
+    font-size: 32px;
+}
+.us-row{
+    width: 49%;
+    margin-left: 219px;
+    margin-top: 20px;
+
+}
+.us-row1{
+    width: 45%;
+    margin-left: 219px;
+    margin-top: 20px;
+    border: 1px solid rgb(41, 14, 14);
+    padding: 19px;
+    border-radius: 4px;
+
+}
+.us-row1 p{
+    font-size: 14px;
+}
+.us-row2 button{
+    border: none;
+    margin-left: 219px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    box-shadow: 0px 10px 15px #ccc;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.us-row p{
+    margin-top: 30px;
+    font-size: 16px;
+    
+}
+.usman{
+    margin-top:142px;
+    margin-left: 7px;
+}
+.softwaremain{
+    width: 100%;
+}
+.software h1{
+    text-align: center;
+    font-size: 33px;
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 22rem;
+    line-height: 45px;
+}
+.software-row{
+    width: 100%;
+    margin-top: 40px;
+}
+.software-box{
+    width: 30%;
+    float: left;
+    background-color: whitesmoke;
+    margin: 7px;
+    height: 22rem;
+}
+.software_icon{
+    width: 20%;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 12px;
+
+
+}
+.software_icon img{
+    max-width: 100%;
+
+
+
+
+}
+.software-box h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.stackmain{
+    width: 100%;
+}
+.stack h1{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 70px;
+}
+.stackmain-row{
+    width: 100%;
+}
+.stackmain-box{
+    width: 19%;
+    float: left;
+    margin: 19px;
+}
+.stackmain-box h2{
+    font-size: 22px;
+    margin-top: 65px;
+    font-weight: 100;
+}
+.stackmain-box p{
+    font-size: 15px;
+    margin-top: 12px;
+    font-weight: 100;
+    margin-left: 18px;
+    
+
+}
+.stack_icon{
+    width: 100%;
+}
+.stack_icon img{
+    max-width: 6%;
+    float: left;
+}
+.softwaremain{
+    width: 100%;
+}
+.software h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.softwarmain-row{
+    width: 100%;
+    margin-left: 32px;
+}
+.softwaremain-box{
+    width: 30%;
+    float: left;
+    background-color: #fff;
+    margin: 10px;
+    height: 26rem;
+}
+.softwaremain_icon{
+    width: 20%;
+    background-color:rgb(79,70,229);
+    border-radius: 50%;
+    padding: 14px ;
+    margin: auto;
+    margin-top: 14px;
+}
+.softwaremain_icon img{
+    max-width: 100%;
+}
+.softwaremain-box h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.softwaremain-box p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: 300;
+}
+.stickmain{
+    width: 100%;
+    background-color: #f4f5fd;
+    
+}
+.stick h1{
+    text-align: center;
+    font-size: 33px;
+    margin-top: 50px;
+    font-weight: 700;
+    padding-top: 40px;
+
+}
+.stickmain-row{
+    width: 100%;
+}
+.stickmain-box{
+    width: 40%;
+    float: left;
+    margin: 20px;
+}
+.stickmain-box h2{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.stickmain-box p{
+    font-size: 15px;
+    margin-top: 12px;
+    font-weight: 400;
+    padding-left: 28px;
+}
+.stack_icon1{
+    width: 100%;
+}
+.stack_icon1 img{
+    max-width: 4%;
+    float: left;
+}
+.process-row1{
+    width: 100%;
+    padding-left: 178px;
+}
+.process-box1{
+    width: 14%;
+    float: left;
+    margin-top: 67px;
+    margin-left: 5px;
+    height: 75px;
+    padding-left: 58px;
+    color: #fff;
+    padding-top: 27px;
+    
+}
+.process-box1 p{
+    font-size: 14px;
+}
+ .company{
+    width: 100%;
+ }
+.company1 h1{
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 35px;
+}
+.company1 p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.company-row {
+    width: 100%;
+}
+.company-row h1{
+    font-size: 34px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.company-row1{
+    width: 100%;
+}
+.company-row1 h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.company-row1 p{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.pythonmain{
+    width: 100%;
+}
+.python h1{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 93px;
+}
+.pythonmain-row{
+    width: 100%;
+    margin-top: 25px;
+}
+.pythonmain-box{
+    width: 30%;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    box-shadow: 0 5px 7px #ccc;
+    float: left;
+    margin: 17px;
+    height: 12rem;
+}
+.pythonmain-box h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.python_icon{
+    width: 10%;
+}
+.python_icon img{
+    width: 100%;
+    margin-left: 167px;
+    margin-top: 33px;
+}
+.angularmain{
+    width: 100%;
+    background-color: #f4f5fd;
+    
+
+}
+.angular1 h1{
+    text-align: center;
+    font-size: 33px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.angular1 p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.angularmain-row{
+    width: 100%;
+
+}
+.angularmain-row h2{
+    font-size: 33px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.angularmain-row p{
+    font-size: 15px;
+    margin-top: 16px;
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+.angularmain1{
+    width: 100%;
+}
+.angular h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.angularmain-row1{
+    width: 100%;
+    margin-top: 45px;
+}
+.angularmain-box{
+    width: 30%;
+    float: left;
+    background-color: #f4f5fd;
+    border-radius: 7px;
+    box-shadow: 0 5px 7px #ccc;
+    margin: 10px;
+    height: 15rem;
+}
+.angular_icon{
+    width: 53%;
+}
+.angular_icon img{
+    width: 100%;
+    padding-left:12rem;
+    margin-top: 36px;
+}
+.angularmain-box h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.process-box1{
+    width: 24%;
+    float: left;
+    margin-top: 5px;
+    height: 17rem;
+}
+.process-box1 h1{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 6px;
+    padding-left: 6px;
+}
+.process-box1 p{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 3px;
+}
+.process-row1{
+    width: 96%;
+    
+    
+}
+.golangmain{
+    width: 100%;
+    background-color: #f4f5fd;
+}
+.golang h1{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 32px;
+    font-weight: 700;
+}
+.golang p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.golangmain-row{
+    width: 100%;
+}
+.golangmain-row h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.golangmain-row p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 7px;
+    line-height: 20px;
+    padding-bottom: 70px;
+}
+.servicemain1{
+    width: 100%;
+}
+.service1 h1{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 90px;
+    font-weight: bold;
+}
+.servicemain1-row{
+    width: 100%;
+    margin-top: 30px;
+}
+.servicemain1-box{
+    width: 30%;
+    background-color:#ccc;
+    border-radius: 7px;
+    box-shadow: 0 5px 7px #94a3bb;
+    float: left;
+    margin: 15px;
+    height: 15rem;
+}
+.servicemain1-box h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.service_icon{
+    width: 14%;
+}
+.service_icon img{
+    max-width: 100%;
+    margin-left: 12rem;
+    margin-top: 27px;
+}
+.contact-row2 h1{
+    font-size: 18px;
+    border: 1px solid black;
+    height: 58px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 17px;
+    border-radius: 5px;
+    font-weight: 100;
+
+
+}
+.contact-row2{
+    width: 100%;
+    margin-top: -54px;
+    
+}
+.ganesh-box p a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration:none ;
+}
+.ganesh-box p:hover a{
+    color: blue;
+}
+.javamain{
+    width: 100%;
+    background-color: #f4f5fd;
+}
+.java h1{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 40px;
+    font-weight: 700;
+}
+.javamain-row{
+    width: 100%;
+    padding-top: 26px;
+}
+.javamain-box{
+    width: 30%;
+    float: left;
+    margin: 19px;
+    border-radius: 7px;
+    box-shadow: 0 7px 7px #94a3bb;
+    background-color: #fff;
+    height: 16rem;
+}
+.javamain-box h2{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.java_icon{
+    width: 15%;
+}
+.java_icon img{
+    max-width: 100%;
+    margin-left: 13rem;
+    margin-top: 30px;
+}
+.hiremain{
+    width: 100%;
+}
+.hire h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    margin-top: 90px;
+    }
+.hiremain-box{
+    width: 45%;
+    float: left;
+    margin-left: 5px;
+}
+.hiremain-box h2{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.hair_icon{
+    width: 100%;
+}
+.hair_icon img{
+    max-width: 140%;
+    margin-left: -166px;
+}
+.hiremain-row{
+
+    margin-top: 45px;
+
+}
+.stickmain7{
+    width: 100%;
+}
+.stick h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+}
+.stickmain-row{
+    width: 100%;
+    margin-top: -80px;
+
+}
+.stickmain-box{
+    width: 30px;
+    float: left;
+    margin: 10rem;
+    margin-bottom: -28px;
+}
+.stickmain-box h5{
+    font-size: 20px;
+    font-weight: 100;
+}
+.stickmain-box p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+.phpmain{
+    width: 100%;
+    background-color: #f4f5fd;
+}
+.php h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.php p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.phpmain-row{
+    width: 100%;
+}
+.phpmain-row h2{
+    font-size: 35px;
+    margin-top: 34px;
+    font-weight: 700;
+}
+.phpmain-row p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-bottom: 60px;
+
+}
+.phpservicesmain{
+    width: 100%;
+}
+.phpservices h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    margin-top: 85px;
+}
+.phpservicesmain-row{
+    width: 100%;
+    margin-top: 25px;
+}
+.phhservicesmain-box{
+    width: 29%;
+    background-color:#94a3bb;
+    float: left;
+    border-radius: 7px;
+    box-shadow: 0 6px 7px #ccc;
+    margin: 20px;
+    height: 15rem;
+}
+.phhservicesmain-box h2{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+}
+.php_icon img{
+    margin-left: 12rem;
+    margin-top: 30px;
+}
+.phpappmain{
+    width: 100%;
+    background-color: #f4f5fd;
+    margin-top: 40px;
+}
+.phpapp h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 39px;
+}
+.phpappmain-row{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.phpappmain-box{
+    width: 23%;
+    margin: 5px;
+    float: left;
+    height: 20rem;
+}
+.phpappmain-box h2{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 32px;
+    color: #fff;
+}
+.phpappmain-box p{
+    text-align: center;
+    font-size: 21px;
+    line-height: 25px;
+    color: #fff;
+}
+.offermain{
+    width: 100%;
+    background-color: #f4f5fd;
+}
+.offer h1{
+    text-align: center;
+    font-size: 33px;
+    padding-top: 26px;
+    font-weight: 900;
+}
+.offermain-row{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.offermain-box{
+    width: 30%;
+    margin: 15px;
+    float: left;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 7px 8px #ccc;
+    height: 12rem;
+}
+.offermain-box h2{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 50px;
+
+}
+.planmain{
+    width: 100%;
+}
+.plan h1{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 90px;
+    font-weight: bold;
+}
+.plan p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: 400;
+
+}
+.planmain-row{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.plan_icon{
+    width: 100%;
+}
+.plan_icon img{
+    max-width: 100%;
+}
+.bssmain{
+    width: 100%;
+    background-color: #f4f5fd;
+}
+.bss h1{
+    text-align: center;
+    font-size: 33px;
+    padding-top: 45px;
+    font-weight: 700;
+}
+.bssmain-row{
+    width: 100%;
+    margin-top: 45px;
+}
+.bssmain-box{
+    width: 45%;
+    float: left;
+    margin: 3px;
+}
+.bssmain-box p{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.bss_icon{
+    width: 100%;
+}
+.bss_icon img{
+    max-width: 143%;
+    margin-left: -12rem;
+    padding-bottom: 20px;
+
+}
+.uiuxmain{
+    width: 100%;
+    background-color: #f4f5fd;
+}
+.uiux h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    padding-top: 55px;
+}
+.uiuxmain-row{
+    width: 100%;
+
+}
+.uiuxmain-box{
+    width: 30%;
+    margin: 10px;
+    float: left;
+    height: 27rem;
+    background-color: #fff;
+    margin-top: 45px;
+}
+.uiuxmain-box h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.uiuxmain-box p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.uiux_icon{
+    width: 20%;
+    background-color:rgb(67,205,102);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 16px;
+}
+.uiux_icon img{
+    max-width: 100%;
+    padding: 12px;
+    
+}
+.strategy_icn{
+    background-color: rgb(237,237,237);
+}
+.stickmain7{
+    width: 100%;
+    background-color: #f4f5fd;
+    margin-top: 20px;
+}
+.stickmain-row7{
+    width: 100%;
+}
+.stickmain-box4{
+    width: 45%;
+    float: left;
+    margin: 20px;
+}
+.stickmain-box4 h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.stickmain-box4 p{
+    font-size: 14px;
+    margin-left: 31px;
+    margin-top: 21px;
+    font-weight: 400;
+}
+.process-box5{
+    width: 14%;
+    float: left;
+    margin: 2px;
+    height: 6rem;
+    margin-top: 80px;
+
+}
+.process-box5 p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 25px;
+}
